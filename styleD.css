@@ -34,6 +34,7 @@ header {
 
 }
 
+
 main {
   min-height: 300px;
   display: flex;
@@ -64,6 +65,15 @@ p {
 /* background-color: #c2670d50; */
 margin: auto;
 padding: 5px 10px;
+}
+.cards div {
+  box-shadow: #2C3539 10px 10px 10px;
+  text-shadow: 1px 1px 2px #2C3539, 0 0 1em #2C3539, 0 0 0.2em #2C3539;
+  
+}
+.cards2 div {
+  box-shadow: #2C3539 10px 10px 10px;
+  text-shadow: 1px 1px 2px #2C3539, 0 0 1em #2C3539, 0 0 0.2em #2C3539;
 }
 .card1 {
   background-image: url(img/boss.png);
@@ -124,6 +134,18 @@ flex: 2;
 color: #2C3539;
 }
 
+#button {
+  color:#f8820e;
+  background-color: white;
+  padding: 11px 25px;
+  border-radius: 4px 10px;
+  box-shadow: #22701e88 10px 10px 1px;
+  font-family: 'Playfair Display', serif;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
 .herobox2 {
 flex: 1;
 margin-left: 10px;
@@ -136,6 +158,7 @@ h1 {
   font-family: 'Playfair Display', serif;
   font-size: 3.25rem;
   margin-bottom: 1rem;
+  text-shadow:  #22701e62 2px 2px 0px ;
 }
 
 .resize {
@@ -180,7 +203,9 @@ nav a {
   text-decoration: none;
 }
 
-.cards div {border-radius: 5px;}
+.cards p {
+  border-radius: 5px;
+}
 .cards2 div {border-radius: 5px;}
 
 #vines {
@@ -190,3 +215,4 @@ nav a {
   right: 0;
   filter: opacity(50%);
   }
+  
