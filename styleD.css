@@ -70,11 +70,17 @@ padding: 5px 10px;
 .cards div {
   box-shadow: #2C3539 10px 10px 10px;
   text-shadow: 1px 1px 2px #2C3539, 0 0 1em #2C3539, 0 0 0.2em #2C3539;
-  
+  color:white;
+}
+.cards a{
+  color: white;
 }
 .cards2 div {
   box-shadow: #2C3539 10px 10px 10px;
   text-shadow: 1px 1px 2px #2C3539, 0 0 1em #2C3539, 0 0 0.2em #2C3539;
+}
+.cards2 a{
+  color: white;
 }
 .card1 {
   background-image: url(img/boss.png);
@@ -135,15 +141,17 @@ flex: 2;
 color: #2C3539;
 }
 
-#button {
-  color:#f8820e;
-  background-color: white;
+.button {
+  color:#2C3539;
+  background-color: rgba(255, 255, 255, 0.801);
   padding: 11px 25px;
   border-radius: 4px 10px;
-  box-shadow: #22701e88 10px 10px 1px;
+  box-shadow: #313131 3px 3px 3px;
   font-family: 'Playfair Display', serif;
   display: inline-block;
   margin-top: 10px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 
@@ -186,7 +194,7 @@ p[class*="gray"] {
 }
 
 nav a {
-  color: white;
+  color: #fbb027;
   padding: 0 .125rem
 }
 
@@ -201,7 +209,6 @@ nav a {
   color: #fbb027;
 }
 .container a {
-  color:white;
   text-decoration: none;
 }
 
@@ -216,5 +223,9 @@ nav a {
   top: 0;
   right: 0;
   filter: opacity(50%);
+  }
+  nav > a {
+    color: #fbb027;
+    padding: 0 .125rem
   }
   
