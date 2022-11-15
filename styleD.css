@@ -276,3 +276,14 @@ footer a {
 .dropdown .navbutton a{
 color: #f8820e;
 }
+
+.inputwrapper {
+  margin-bottom: 20px;
+}
+
+input[type=text], input[type=email], textarea {
+  padding: 12px 20px;
+  width: 40%;
+  font-family: 'Alata', sans-serif;
+}
+
