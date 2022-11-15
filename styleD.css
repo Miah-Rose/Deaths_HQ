@@ -40,6 +40,7 @@ main {
 .main2 {
   min-height: 300px;
   padding-top: 50px;
+  color: white;
 }
 
 p {
@@ -279,11 +280,21 @@ color: #f8820e;
 
 .inputwrapper {
   margin-bottom: 20px;
+  color: white;
 }
 
-input[type=text], input[type=email], textarea {
+input[type=text], input[type=mail], textarea {
+  box-sizing: border-box;
   padding: 12px 20px;
-  width: 40%;
+  width: 100%;
   font-family: 'Alata', sans-serif;
 }
 
+.label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.margin-right-a {
+  margin-right: 20px;
+}
