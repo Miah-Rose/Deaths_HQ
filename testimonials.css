@@ -1,0 +1,19 @@
+h1 {
+  font-size: 3em;
+  color: red;
+  background-color: black;
+}
+
+.tbox {
+  width: 47%;
+  padding: 50px;
+  border: 1px solid white;
+}
+.testimonials {
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+ margin-top: 5px;
+  padding: 10px;
+}
