@@ -302,6 +302,14 @@ input[type=text], input[type=mail], textarea {
   margin-right: 20px;
 }
 
+input[type=radio] {
+  margin-right: 10px;
+}
+
+form {
+  margin: 40px 0px;
+}
+
 .round {
   border-radius: 100px;
   margin-right: 25px;
@@ -314,3 +322,4 @@ input[type=text], input[type=mail], textarea {
 .round:hover {
   opacity: 90%;
 }
+
