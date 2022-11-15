@@ -260,6 +260,9 @@ footer a {
   color: white;
 
 }
+.green_underline {
+  text-decoration: solid underline #22701e 2px;
+}
 
 .dropdown {
   display: none;
@@ -297,4 +300,17 @@ input[type=text], input[type=mail], textarea {
 
 .margin-right-a {
   margin-right: 20px;
+}
+
+.round {
+  border-radius: 100px;
+  margin-right: 25px;
+}
+.us {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.round:hover {
+  opacity: 90%;
 }
